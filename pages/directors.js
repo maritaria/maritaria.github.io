@@ -6,7 +6,13 @@
 
 	Nuterra.addPage('directors', function (id) {
 		if (id == null) {
-			directorListTemplate.render({ directors: Directors }, function (rendered) {
+			var directors = [];
+			for (var key in Directors) {
+			    if (Directors.hasOwnProperty(key)) {
+					directors.push(Directors[key]);
+			    }
+			}
+			directorListTemplate.render({ directors: directors }, function (rendered) {
 				$('#main-content').html(rendered);
 				$('#main-content .btn').button();
 			});

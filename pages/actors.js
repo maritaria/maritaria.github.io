@@ -6,7 +6,13 @@
 
 	Nuterra.addPage('actors', function (id) {
 		if (id == null) {
-			actorListTemplate.render({ actors: Actors }, function (rendered) {
+			var actors = [];
+			for (var key in Actors) {
+			    if (Actors.hasOwnProperty(key)) {
+					actors.push(Actors[key]);
+			    }
+			}
+			actorListTemplate.render({ actors: actors }, function (rendered) {
 				$('#main-content').html(rendered);
 				$('#main-content .btn').button();
 			});

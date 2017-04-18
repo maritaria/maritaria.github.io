@@ -163,14 +163,15 @@ window.Nuterra = (function () {
             }
 
             var handler = page.callback;
-            var newUrl = "/app/" + name + "/";
+            var newUrl = "#" + name;
             if (id) {
-                newUrl += id + "/";
+                newUrl += "=" + id;
             }
-            handler(id);
 
             $('#navbar li.active').removeClass('active');
             $(page.navItems).addClass("active");
+
+            handler(id);
 
             if (!prevent_push) {
                 history.pushState({ name: name, id: id }, name + ": #" + id, newUrl);
