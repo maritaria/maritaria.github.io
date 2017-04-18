@@ -21,6 +21,6 @@ WHERE {
 
 function getMovieStats(imdb_id, callback) {
 	return $.ajax({
-		url: 'http://www.omdbapi.com/?i=' + imdb_id, //tt4116284
+		url: 'https://www.omdbapi.com/?i=' + imdb_id, //tt4116284
 	}).done(callback);
 }
