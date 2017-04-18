@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE rdf:RDF [
+   <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+   <!ENTITY owl 'https://www.w3.org/2002/07/owl#'>
+   <!ENTITY bios 'http://www.biosdrachten.nl/#'>
+   <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+]>
+<rdf:RDF
+   xmlns:bios="&bios;"
+   xmlns:rdf="&rdf;"
+   xmlns:owl="&owl;"
+   xmlns:xsd="&xsd;"
+   xml:base="http://www.biosdrachten.nl/#">
+
+<!-- Movies -->
+<bios:Movie rdf:about="#movie_batman" bios:title="De Lego Batman Film 2D">
+	<bios:duration rdf:datatype="&xsd;time">02:05:00</bios:duration>
+	<bios:minumumAge rdf:datatype="&xsd;int">6</bios:minumumAge>
+	<bios:pageUrl>http://www.biosdrachten.nl/getInfo.asp?1000001937</bios:pageUrl>
+	<bios:scrapedUrl>https://web.archive.org/web/20170412112615/http://www.biosdrachten.nl/getInfo.asp?1000001937</bios:scrapedUrl>
+	
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-13T13:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-14T13:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-15T12:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-16T13:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-17T10:15:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-17T12:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-18T13:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-19T13:15:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-20T13:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-21T10:15:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-21T12:45:00</bios:showing>
+	
+	<bios:hasDirector rdf:resource="#director_Chris_McKay"/>
+	<bios:hasActor rdf:resource="#actor_Ralph_Fiennes"/>
+	<bios:hasActor rdf:resource="#actor_Zach_Galifianakis"/>
+	<bios:hasActor rdf:resource="#actor_Rosario_Dawson"/>
+	<bios:hasActor rdf:resource="#actor_Michael_Cera"/>
+	<bios:hasActor rdf:resource="#actor_Will_Arnett"/>
+	<bios:hasActor rdf:resource="#actor_Siri"/>
+	
+	<bios:hasRating rdf:resource="#rating_geweld"/>
+	<bios:hasGenre rdf:resource="#genre_actie"/>
+	<bios:hasGenre rdf:resource="#genre_avontuur"/>
+	<bios:hasGenre rdf:resource="#genre_animatie"/>
+	
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q23013169"/>
+</bios:Movie>
+<bios:Movie rdf:about="#movie_kong" bios:title="Kong Skull Island">
+	<bios:duration rdf:datatype="&xsd;time">2:25:00</bios:duration>
+	<bios:minumumAge rdf:datatype="&xsd;int">12</bios:minumumAge>
+	<bios:price rdf:datatype="&xsd;float">9.00</bios:price>
+	<bios:pageUrl>http://www.biosdrachten.nl/getInfo.asp?1000001952</bios:pageUrl>
+	<bios:scrapedUrl>https://web.archive.org/web/20170412112644/http://www.biosdrachten.nl/getInfo.asp?1000001952</bios:scrapedUrl>
+	
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-13T21:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-14T19:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-15T18:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-15T21:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-16T18:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-17T21:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-18T19:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-19T18:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-19T21:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-20T18:45:00</bios:showing>
+	
+	<bios:hasDirector rdf:resource="#director_Jordan_Vogt-Roberts"/>
+	<bios:hasActor rdf:resource="#actor_Tom_Hiddleston"/>
+	
+	<bios:hasRating rdf:resource="#rating_geweld"/>
+	<bios:hasRating rdf:resource="#rating_eng"/>
+	<bios:hasRating rdf:resource="#rating_taal"/>
+	<bios:hasGenre rdf:resource="#genre_actie"/>
+	<bios:hasGenre rdf:resource="#genre_avontuur"/>
+	
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q21203766"/>
+</bios:Movie>
+<bios:Movie rdf:about="#movie_ghost_in_the_shell" bios:title="Ghost in the Shell 3D">
+	<bios:duration rdf:datatype="&xsd;time">2:15:00</bios:duration>
+	<bios:minumumAge rdf:datatype="&xsd;int">12</bios:minumumAge>
+	<bios:price rdf:datatype="&xsd;float">9.00</bios:price>
+	<bios:pageUrl>http://www.biosdrachten.nl/getInfo.asp?1000002001</bios:pageUrl>
+	<bios:scrapedUrl>https://web.archive.org/web/20170412112647/http://www.biosdrachten.nl/getInfo.asp?1000002001</bios:scrapedUrl>
+	
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-14T18:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-16T19:00:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-18T19:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-19T18:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-19T21:45:00</bios:showing>
+	<bios:showing rdf:datatype="&xsd;datetime">2017-04-20T21:45:00</bios:showing>
+	
+	<bios:hasDirector rdf:resource="#director_Rupert_Sanders"/>
+	<bios:hasActor rdf:resource="#actor_Arnold_Schwarzenegger"/>
+	<bios:hasActor rdf:resource="#actor_Takeshi_Kitano"/>
+	<bios:hasActor rdf:resource="#actor_Scarlett_Johansson"/>
+	<bios:hasActor rdf:resource="#actor_Juliette_Binoche"/>
+	<bios:hasActor rdf:resource="#actor_Kaori_Momoi"/>
+	<bios:hasActor rdf:resource="#actor_Chin_Han"/>
+	<bios:hasActor rdf:resource="#actor_Pilou_Asbaek"/>
+	<bios:hasActor rdf:resource="#actor_Michael_Pitt"/>
+	
+	<bios:hasRating rdf:resource="#rating_geweld"/>
+	<bios:hasGenre rdf:resource="#genre_actie"/>
+	<bios:hasGenre rdf:resource="#genre_drama"/>
+	<bios:hasGenre rdf:resource="#genre_scifi"/>
+	
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q22575835"/>
+</bios:Movie>
+
+<!-- Directors -->
+<bios:Director rdf:about="#director_Chris_McKay" bios:name="Chris McKay">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q20676250"/>
+</bios:Director>
+<bios:Director rdf:about="#director_Rupert_Sanders" bios:name="Rupert Sanders">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q175062"/>
+</bios:Director>
+<bios:Director rdf:about="#director_Jordan_Vogt-Roberts" bios:name="Jordan Vogt-Roberts">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q17091099"/>
+</bios:Director>
+
+<!-- Actors -->
+<bios:Actor rdf:about="#actor_Ralph_Fiennes" bios:name="Ralph Fiennes">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q28493"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Zach_Galifianakis" bios:name="Zach Galifianakis">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q139325"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Rosario_Dawson" bios:name="Rosario Dawson">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q228692"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Michael_Cera" bios:name="Michael Cera">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q309555"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Will_Arnett" bios:name="Will Arnett">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q355116"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Siri" bios:name="Siri">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q582159"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Arnold_Schwarzenegger" bios:name="Arnold Schwarzenegger">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q2685"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Takeshi_Kitano" bios:name="Takeshi Kitano">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q26372"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Scarlett_Johansson" bios:name="Scarlett Johansson">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q34436"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Juliette_Binoche" bios:name="Juliette Binoche">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q106275"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Kaori_Momoi" bios:name="Kaori Momoi">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q442924"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Chin_Han" bios:name="Chin Han">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q938855"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Pilou_Asbaek" bios:name="Pilou Asbaek">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q117906"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Michael_Pitt" bios:name="Michael Pitt">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q352540"/>
+</bios:Actor>
+<bios:Actor rdf:about="#actor_Tom_Hiddleston" bios:name="Tom Hiddleston">
+	<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q295803"/>
+</bios:Actor>
+
+<!-- Rating tags -->
+<bios:Rating rdf:about="#rating_geweld" bios:name="Geweld" bios:icon="http://biosdrachten.nl/kw/geweld.gif" />
+<bios:Rating rdf:about="#rating_eng" bios:name="Eng" bios:icon="http://biosdrachten.nl/kw/eng.gif" />
+<bios:Rating rdf:about="#rating_taal" bios:name="Grofe Taal" bios:icon="http://biosdrachten.nl/kw/taal.gif" />
+
+<!-- Genres -->
+<bios:Genre rdf:about="#genre_saai" bios:name="Boring"/>
+<bios:Genre rdf:about="#genre_scary" bios:name="Eng"/>
+<bios:Genre rdf:about="#genre_actie" bios:name="Actie"/>
+<bios:Genre rdf:about="#genre_animatie" bios:name="Animatie"/>
+<bios:Genre rdf:about="#genre_avontuur" bios:name="Avontuur"/>
+
+</rdf:RDF>

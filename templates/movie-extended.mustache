@@ -1,0 +1,16 @@
+<h2>IMDB info</h2>
+<div class="container">
+	<a href="{{Website}}">Official website</a>
+</div>
+<h2>Scores</h2>
+<div class="container">
+	{{#Ratings}}
+	<p class="row">
+		<span class="col-xs-9">{{Source}}</span>
+		<span class="col-xs-3">{{Value}}</span>
+	</div>
+	{{/Ratings}}
+</div>
+<div class="poster">
+	<img src="{{Poster}}" class="img-responsive"/>
+</div>

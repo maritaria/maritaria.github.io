@@ -1,0 +1,20 @@
+(function () {
+	var directorListTemplate = Nuterra.addTemplate('director-list', 'templates/director-list.mustache');
+	var directorTemplate = Nuterra.addTemplate('director', 'templates/director.mustache');
+
+	directorListTemplate.addDependency(directorTemplate);
+
+	Nuterra.addPage('directors', function (id) {
+		if (id == null) {
+			directorListTemplate.render({ directors: Directors }, function (rendered) {
+				$('#main-content').html(rendered);
+				$('#main-content .btn').button();
+			});
+		} else {
+			directorTemplate.render(Directors[id], function (rendered) {
+				$('#main-content').html(rendered);
+				$('#main-content .btn').button();
+			});
+		}
+	});
+})();
