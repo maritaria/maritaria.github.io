@@ -14,7 +14,6 @@ WHERE {
 		url: url,
 	}).done(function (data) {
 		var cleaned = wdk.simplifySparqlResults(data);
-		console.log(cleaned);
 		callback(cleaned[0]);
 	});
 }

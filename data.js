@@ -56,6 +56,49 @@ function addMovie(movie) {
 	movie.local_id = Movies.length - 1;
 }
 addMovie({
+	id: 'Q22575835',
+	title: 'Ghost in the Shell 3D',
+	duration: minutes(2, 15),
+	minimum_age: 12,
+	page_url: 'http://www.biosdrachten.nl/getInfo.asp?1000002001',
+	scraped_url: 'https://web.archive.org/web/20170412112647/http://www.biosdrachten.nl/getInfo.asp?1000002001',
+	showings: [
+		new Date('2017-04-13T21:45:00'),
+		new Date('2017-04-13T21:45:00'),
+		new Date('2017-04-14T19:00:00'),
+		new Date('2017-04-15T18:45:00'),
+		new Date('2017-04-15T21:45:00'),
+		new Date('2017-04-16T18:45:00'),
+		new Date('2017-04-17T21:45:00'),
+		new Date('2017-04-18T19:00:00'),
+		new Date('2017-04-19T18:45:00'),
+		new Date('2017-04-19T21:45:00'),
+		new Date('2017-04-20T18:45:00'),
+	],
+	directors: [
+		Directors.rupert_sanders
+	],
+	actors: [
+		Actors.arnold_schwarzenegger,
+		Actors.takeshi_kitano,
+		Actors.scarlett_johansson,
+		Actors.juliette_binoche,
+		Actors.kaori_momoi,
+		Actors.chin_han,
+		Actors.pilou_asbaek,
+		Actors.michael_pitt,
+	],
+	ratings: [
+		Ratings.geweld,
+		Ratings.taal,
+		Ratings.eng,
+	],
+	genres: [
+		Genres.actie,
+		Genres.avontuur,
+	],
+});
+addMovie({
 	id: 'Q23013169',
 	title: 'De Lego Batman Film 2D',
 	duration: minutes(2, 5),
@@ -94,7 +137,7 @@ addMovie({
 	],
 });
 addMovie({
-	id: 'Q23013169',
+	id: 'Q21203766',
 	title: 'Kong Skull Island',
 	duration: minutes(2, 25),
 	minimum_age: 12,
@@ -118,49 +161,6 @@ addMovie({
 	],
 	actors: [
 		Actors.tom_hiddleston,
-	],
-	ratings: [
-		Ratings.geweld,
-		Ratings.taal,
-		Ratings.eng,
-	],
-	genres: [
-		Genres.actie,
-		Genres.avontuur,
-	],
-});
-addMovie({
-	id: 'Q22575835',
-	title: 'Ghost in the Shell 3D',
-	duration: minutes(2, 15),
-	minimum_age: 12,
-	page_url: 'http://www.biosdrachten.nl/getInfo.asp?1000002001',
-	scraped_url: 'https://web.archive.org/web/20170412112647/http://www.biosdrachten.nl/getInfo.asp?1000002001',
-	showings: [
-		new Date('2017-04-13T21:45:00'),
-		new Date('2017-04-13T21:45:00'),
-		new Date('2017-04-14T19:00:00'),
-		new Date('2017-04-15T18:45:00'),
-		new Date('2017-04-15T21:45:00'),
-		new Date('2017-04-16T18:45:00'),
-		new Date('2017-04-17T21:45:00'),
-		new Date('2017-04-18T19:00:00'),
-		new Date('2017-04-19T18:45:00'),
-		new Date('2017-04-19T21:45:00'),
-		new Date('2017-04-20T18:45:00'),
-	],
-	directors: [
-		Directors.rupert_sanders
-	],
-	actors: [
-		Actors.arnold_schwarzenegger,
-		Actors.takeshi_kitano,
-		Actors.scarlett_johansson,
-		Actors.juliette_binoche,
-		Actors.kaori_momoi,
-		Actors.chin_han,
-		Actors.pilou_asbaek,
-		Actors.michael_pitt,
 	],
 	ratings: [
 		Ratings.geweld,
